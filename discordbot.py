@@ -1,14 +1,9 @@
 import discord
 from discord.ext import commands
 from discord.activity import Game
-from discord.ext import tasks
-from discord.utils import find
-from discord.utils import get
 import math
-from datetime import datetime, timezone, timedelta
 
 
-JST = timezone(timedelta(hours=+9), "JST")
 intents = discord.Intents.default()
 intents.members = True
 prefix = "?"
