@@ -79,6 +79,5 @@ async def gather(ctx, once:int, now:int, total:int):
     await ctx.send(f"***【白猫】ルーンの必要数と周回数を計算***\n>>> **1回あたり手に入るルーン数 : ``{once}個``\n現在あるルーン数 : ``{now}個``\n必要なルーン数 : ``{total}個``\n残りのルーン数 : ``{remain}個``\n残り周回数 : ``{math.ceil(laps)}周``\n余るルーン数 : ``{math.ceil(extra)}個``**")
 
 
-token = "OTUwMDYyODQxMzE3MTgzNTU5.YiTc-A.e843dqh1ApUUuiTMsh_srHQpF_U"
 #token = getenv('DISCORD_BOT_TOKEN')
 bot.run(token)
